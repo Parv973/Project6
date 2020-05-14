@@ -1,0 +1,399 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="images/contact.jpg">
+      <title>Untitled Document</title>
+      <style>
+         *
+         {
+         margin: 0;
+         padding: 0;
+         }
+         .head
+         {
+         text-align: center;
+         }
+         table, td, th
+         {
+         padding: 0px 10px 0px 10px;
+         }
+         table, th
+         {
+         text-align: center;
+         }
+         list, li, a
+         {
+         text-decoration: none;
+         color: white;
+         }
+         list, li
+         {
+         list-style: none;
+         margin-left: 20px;
+         margin-top: 30px;
+         }
+         list, li, a:hover
+         {
+         text-decoration: none;
+         color: #ED195F;
+         }
+         .leftDiv
+         {
+         background-color: #000000;
+         height: 3249px;
+         }
+         .rightDiv
+         {
+         border-radius: 10px 10px 10px 10px;
+         background-color: #E5E5E5;
+         padding-bottom: 10px;
+         }
+         .para
+         {
+         font-size: 17px;
+         text-align: justify;
+         margin-left: 230px;
+         margin-top: -200px;
+         }
+         #about
+         {
+         width: 100%;
+         height: 50px;
+         padding-top: 5px;
+         color: #FDFDFD;
+         background-color: #684E82;
+         font-family: 'Oswald', sans-serif;
+         }
+         #about:hover
+         {
+         color: #13A3E2;
+         }
+         #skills
+         {
+         width: 100%;
+         height: 50px;
+         padding-top: 5px;
+         color: #FDFDFD;
+         background-color: #684E82;
+         font-family: 'Oswald', sans-serif;
+         }
+         #skills:hover
+         {
+         color: #13A3E2;
+         }
+         #goal
+         {
+         width: 100%;
+         height: 50px;
+         padding-top: 5px;
+         color: #FDFDFD;
+         background-color: #684E82;
+         font-family: 'Oswald', sans-serif;
+         }
+         .footer
+         {
+         width: 100%;
+         height: 50px;
+         color: #FDFDFD;
+         background-color: #684E82;
+         }
+         #goal:hover
+         {
+         color: #13A3E2;
+         }
+         #contact
+         {
+         width: 100%;
+         height: 50px;
+         padding-top: 5px;
+         color: #FDFDFD;
+         background-color: #684E82;
+         font-family: 'Oswald', sans-serif;
+         }
+         #contact:hover
+         {
+         color: #13A3E2;
+         }
+         .img
+         {
+         background-image: url("images/contact.jpg");
+         height: 300px;
+         width: 97.4%;
+         margin: auto;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         margin-top: -50px;
+         }
+         #con {
+         color: #3079ed;
+         animation-name: focus-in-contract;
+         animation-duration: 1s;
+         animation-timing-function: ease;
+         animation-delay: 0s;
+         animation-iteration-count: 1;
+         animation-direction: normal;
+         animation-fill-mode: none;
+         font-family: 'Oswald', sans-serif;
+         color: #FFFFFF;
+         padding-top: 100px;
+         }
+         @keyframes focus-in-contract {
+         0%{
+         letter-spacing: 1em;
+         filter: blur(12px);
+         opacity: 0;
+         }
+         100%{
+         filter: blur(0);
+         opacity: 1;
+         }
+         }
+         .tex
+         {
+         width: 100%;
+         height: 50px;
+         border-radius: 10px 10px 10px 10px;
+         font-size: 20px;
+         padding-left: 10px;
+         margin-top: 10px;
+         }
+         .tex:hover
+         {
+         background-color: #000000;
+         color: #FFFFFF;
+         }
+         .texa
+         {
+         width: 100%;
+         height: 150px;
+         border-radius: 10px 10px 10px 10px;
+         font-size: 20px;
+         margin-top: 10px;
+         padding-left: 10px;
+         }
+         .texa:hover
+         {
+         background-color: #000000;
+         color: #FFFFFF;
+         }
+         #btn
+         {
+         border-radius: 10px 10px 10px 10px;
+         width: 100px;
+         height: 50px;
+         background-color: #5B0BEF;
+         color: #FFFFFF;
+         margin: auto;
+         font-size: 15px;
+         }
+         #btn:hover
+         {
+         background-color: #FFFFFF;
+         color: #5B0BEF;
+         }
+         #addPara
+         {
+         font-family: 'Pangolin', cursive;
+         font-size: 22px;
+         }
+         p
+         {
+         font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+         }
+      </style>
+   </head>
+   <body style="background: -moz-linear-gradient(45deg, rgba(0,51,51,1) 0%, rgba(5,193,255,1) 50%, rgba(0,51,51,1) 100%); /* ff3.6+ */
+      background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,51,51,1)), color-stop(50%, rgba(5,193,255,1)), color-stop(100%, rgba(0,51,51,1))); /* safari4+,chrome */
+      background: -webkit-linear-gradient(45deg, rgba(0,51,51,1) 0%, rgba(5,193,255,1) 50%, rgba(0,51,51,1) 100%); /* safari5.1+,chrome10+ */
+      background: -o-linear-gradient(45deg, rgba(0,51,51,1) 0%, rgba(5,193,255,1) 50%, rgba(0,51,51,1) 100%); /* opera 11.10+ */
+      background: -ms-linear-gradient(45deg, rgba(0,51,51,1) 0%, rgba(5,193,255,1) 50%, rgba(0,51,51,1) 100%); /* ie10+ */
+      background: linear-gradient(45deg, rgba(0,51,51,1) 0%, rgba(5,193,255,1) 50%, rgba(0,51,51,1) 100%); /* w3c */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003333', endColorstr='#003333',GradientType=1 ); /* ie6-9 */">
+      <div class="col-sm-2 leftDiv">
+         <ul>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#skills">MY SKILLS</a></li>
+            <li><a href="#goal">MY GOAL</a></li>
+            <li><a href="#contact">CONTACT INFO</a></li>
+         </ul>
+      </div>
+      <div class="col-sm-9 rightDiv">
+         <center>
+            <h1 id="about">ABOUT ME</h1>
+         </center>
+         <br>
+         <div class="col-sm-4">
+            <img src="images/ParPic.jpeg" alt="can't upload image" width="200px;" height="200px;" style="padding-left: 10px;">
+         </div>
+         <div class="col-sm-8 para">
+            <p>
+               For the past 4 years, I've been developing applications for the <strong>web using mostly PHP</strong>. I do this for a living and love what I do as every day there is something new and exciting to learn.<br><br>
+               In my spare time, the web development community is a big part of my life. Whether teaching code to kids at a local school, managing online programming groups and blogs or attending a conference, I find keeping involved helps me stay up to date.<br><br>
+               This is also my chance to give back to the community that helped me get started, a place I am proud to be part of.<br><br>
+               Besides programming I love spending time with friends and family and can often be found together going out catching the latest movie, staying in playing games on the sofa or planning a trip to someplace I've never been before.<br><br>
+               I graduated from university Hull School of Art & Design where I studied web design and got a first class degree with honours. While I was at university I worked part time for a web design agency called Surrect Media that helped me to further hone in my skills as a developer. When not at work I'm usually working on a new project from home which could be anything to updating one of my sites to creating a new CRM application. Since leaving university I've been lucky enough to work for The One Point.<br><br>
+               My job involves doing what I love, Developing new websites/applications, customer relationship management (CRM) applications and developing fantastic content management systems (CMS).<br><br>
+               I spend a lot of time learning new techniques and actively help other people learn web development through a variety of help groups and writing web development tutorials for my website and blog about advancements in web design and development.<br><br>
+            </p>
+            <hr>
+            <br>
+            <p>
+               • I am a dedicated full stack Web Developer Having <em>3+ Year Experience</em>. In Past, I have done 70+ Projects including E-commerce Projects, Websites with Admin Dashboard, multiple large database handling,<br><br>
+               • I'm experts In <b>PHP, Laravel, CodeIgniter, WordPress, HTML5, CSS3, Bootstrap, Jquery, Ajax, MySQL, And Other Web Development Skills.</b><br><br>
+               • Once you start working with me you will see that I am very resourceful and my dedication towards your project will surely impress you.<br><br>
+               • I will do my best to finish all your projects perfectly within your requirements and timeline.
+            </p>
+         </div>
+         <br>
+         <div class="row">
+            <div class="col-xs-12">
+               <center>
+                  <table border="1" style="border-collapse: collapse;">
+                     <th colspan="2">Skills</th>
+                     <th colspan="2">Career</th>
+                     <tr>
+                        <td class="head"><b>Hardware</b></td>
+                        <td class="head"><strong>Software</strong></td>
+                        <td class="head"><b>Job1</b></td>
+                        <td class="head"><strong>Job2</strong></td>
+                     </tr>
+                     <tr>
+                        <td>PC Assembly</td>
+                        <td rowspan="2">HTML, JavaScript
+                           CSS, PHP, Java
+                        </td>
+                        <td>Game Developer</td>
+                        <td>Web Developer</td>
+                     </tr>
+                     <tr>
+                        <td>Networking</td>
+                        <td>Unity Developer</td>
+                        <td>Database Designer</td>
+                     </tr>
+                     <tr>
+                        <td>A+ certificate</td>
+                        <td>C++</td>
+                        <td colspan="2" class="head">Logo Designer</td>
+                     </tr>
+                     <br><br>
+                  </table>
+               </center>
+            </div>
+         </div>
+         <center>
+            <h1 id="skills">SKILLS</h1>
+         </center>
+         <br>
+         <div class="row">
+            <div class="col-xs-4 sPara">
+               <center>
+                  <h1><u>HTML</u></h1>
+               </center>
+               <p style="text-align: justify;">
+                  * Developed multiple projects in a solution with Visual Studio.
+                  Edited user controls for the public site designed and edited html pages for the public and gated sites.<br>
+                  * Managed website links to videos and interactive media through constants.<br>
+                  * Completed 70-80 pages of HTML and grammatical edits per day.<br>
+                  * Edit, design, and implement website graphics for both public and gated sites to comply with style guides for the National Geographic Brand.
+               </p>
+            </div>
+            <div class="col-xs-4 sPara">
+               <img src="images/php.jpg" alt="can't upload image" width="100%" height="300px;">
+            </div>
+            <div class="col-xs-4 sPara">
+               <center>
+                  <h1><u>PHP</u></h1>
+               </center>
+               <p style="text-align: justify">
+                  * Possess strong knowledge of PHP web frameworks such as Laravel and proficient in various programming languages such as HTML/CSS, * JavaScript, SQL, and PHP<br>
+                  * In-depth information of SQL/NOSQL databases as well as their declarative query languages to ensure appropriate information retrieval<br>
+                  * Familiar with tools like GitHub, JIRA and have a solid understanding of various data types, data structures as well as algorithms<br>
+                  * Team player having exceptional organizational, problem-solving and communication skills
+               </p>
+            </div>
+         </div>
+         <center>
+            <h1 id="goal">MY GOAL</h1>
+         </center>
+         <br>
+         <div class="row">
+            <div class="col-sm-6">
+               <p style="font-size: 17px; text-align: justify;">
+                  Collaborate with web design and development team to create a new website for a tech startup, assisting with coding and beta testing.<br><br>
+                  Delegate objectives to team of coders to facilitate time frame and meet the common vision of the project.<br><br>
+                  Assist design team with coding to create a user-friendly interface that is compatible across every major operating system.<br><br>
+                  Manage user feedback and perform system checkups to ensure the functionality of the website.<br><br>
+                  Oversee team of three junior coders and two interns.
+               </p>
+               <hr style="color: #ED070A;">
+               <p  style="font-size: 17px; text-align: justify;">
+                  Executed software tests, monitoring for bugs in the code and identifying the sources of the problems.<br><br>
+                  Developed scenarios to test the limits of software, revealing the potential for further debugging and testing.<br><br>
+                  Responded to user feedback, recreating reported issues and resolving them in a timely manner.<br><br>
+                  Scheduled and facilitated system-wide inspections for clients experiencing software issues.
+               </p>
+            </div>
+            <div class="col-sm-6">
+               <img src="images/goal.jpg" alt="can't upload image" width="100%" height="300px;">
+            </div>
+         </div>
+         <center>
+            <h1 id="contact">CONTACT</h1>
+         </center>
+         <br>
+         <div class="row">
+            <div class="img">
+               <center>
+                  <h1 id="con">GET IN TOUCH</h1>
+               </center>
+            </div>
+         </div>
+         <br>
+         <div class="row">
+            <div class="col-xs-4">
+               <h1>Address:</h1>
+               <p id="addPara">6743, Ross Street,<br>
+                  Postal Code: v4x7j3,<br>
+                  Vancouver, Canada
+               </p>
+            </div>
+            <div class="col-xs-8">
+               <form>
+                  <input type="text" name="t1" placeholder="Enter Full Name" required="required"  class="tex"><br>
+                  <input type="email" name="t2" placeholder="Enter Email" required="required" class="tex"><br>
+                  <input type="text" name="t3" placeholder="Enter Subject" required="required" class="tex"><br>
+                  <textarea name="t4" id="" cols="50" rows="5" placeholder="Enter Your Messsage Here" class="texa"></textarea>
+                  <center><button id="btn">Send</button></center>
+               </form>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+               <a href="http://www.facebook.com" target="_blank" class="link"><img src="images/fb.png" alt="can't load the image" width="50px;" height="50px;" title="Facebook"></a>&nbsp;&nbsp;&nbsp;
+               <a href="http://www.instagram.com" target="_blank" class="link"><img src="images/insta.jpg" alt="can't load the image" width="50px;" height="50px;" title="Facebook"></a>&nbsp;&nbsp;&nbsp;
+               <a href="http://www.linkedin.com" target="_blank" class="link"><img src="images/in.png" alt="can't load the image" width="50px;" height="50px;" title="Facebook"></a>
+            </div>
+            <div class="col-sm-4">
+            </div>
+         </div>
+      </div>
+      <div class="col-sm-1" style="position: fixed; right: 0; bottom: 0; z-index: 1;" >
+         <a href="#about"><img src="images/top.png" alt="can't upload image" width="100px;" height="100px;"></a>
+      </div>
+      <div class="col-sm-12 footer">
+         <center>
+            <p style="padding-top: 10px;">Copyright &copy; 2020</p>
+         </center>
+      </div>
+   </body>
+</html>
